@@ -1,9 +1,9 @@
-.header__nav{
+.header-nav{
     display: flex;
     overflow: hidden;
 }
 
-.header__logo{
+.header-logo{
     flex:1;
     display:flex;
 
@@ -43,7 +43,7 @@
 
 .header__menu li{
     font-weight:500;
-    font-family: var(--plus-jackarta-sans);
+    font-family: var(--plus-jakarta-sans);
     color: var(--secondary-color);
     font-size: 16px;
     text-transform: uppercase;
