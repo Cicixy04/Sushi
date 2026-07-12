@@ -3,8 +3,8 @@
     overflow: hidden;
 }
 
-.header-logo{
-    flex:1;
+.header__logo{
+    flex: 0.808;
     display:flex;
 
     position: relative;
