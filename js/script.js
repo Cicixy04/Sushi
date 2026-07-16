@@ -21,7 +21,7 @@ const trendingSushis = [
     'Temaki Sushi',
     'Uramaki Sushi',
     'Inari Sushi'
-];
+]
 
 const trendingDrinks = [
     "Oruncha",

@@ -11,11 +11,11 @@
     <header>
         <nav class="header-nav">
             <div class="header__logo">
-                <h4 >Sushi</h4>
+                <h4 data-aos="fade-down">Sushi</h4>
                 <div class="header__logo-overlay"></div>
             </div>
 
-            <ul class = "header__menu">
+            <ul class = "header__menu" data-aos="fade-down">
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#food">Food</a></li>
                 <li><a href="#services">Services</a></li>
@@ -23,7 +23,7 @@
                 <li><img src="assets/search.svg" alt="Search"></li>
             </ul>
 
-            <ul class = "header__menu-mobile">
+            <ul class = "header__menu-mobile" data-aos="fade-down">
                 <li><img src="assets/menu.svg" alt="Menu"></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#food">Food</a></li>
@@ -123,6 +123,54 @@
         
         <button class ="popular-foods__button">Explore Food<img src="assets/arrow-right.svg"></button>
     
+    </section>
+
+    <section class="trending" id="food">
+        <div class="trending__content" data-aos="fade-right">
+            <p class="sushi__subtitle">What's Trending / トレンド </p>
+            <h3 class="sushi__title">Japanese Sushi</h3>
+            <p class="sushi__description">Feel the taste of th most delicious Sushi here.</p>
+
+            <ul class="trending__list flex-between"> 
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Make Sushi</p>
+                </li>
+
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Oshizushi</p>
+                </li>
+
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Uramaki Sushi</p>
+                </li>
+
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Nigiri Sushi</p>
+                </li>
+
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Temaki Sushi</p>
+                </li>
+
+                <li>
+                    <div class="trendin__icon flex-center"><img src="assets/check.svg" alt="check"/></div>
+                    <p>Inari Sushi</p>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="trendin__image flex-center">
+            <img src="assets/sushi-5.png" alt="sushi-5" data-aos="fade-left">
+            <div class="trendin__arrow trending__arrow-left"><img src= "assets/arrow-vertical.svg" alt="arrow vertical"/></div>
+            <div class="trendin__arrow trending__arrow-left"><img src= "assets/arrow-horizontal.svg" alt="arrow horizontal"/></div>
+        </div>
+
     </section>
 
     <script src="js/script.js" type="module"></script>
