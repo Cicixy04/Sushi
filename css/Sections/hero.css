@@ -29,7 +29,7 @@
 .hero-image h2 {
     position: absolute;
     bottom: 0;
-    padding:20px;
+    padding: 20px;
     font-family: var(--playfair-display);
     font-size: 120px;
     font-weight: 700;
@@ -142,7 +142,7 @@
     align-items: center;
     gap: 10px;
     padding-left: 20px;
-    border-left: 1px solid rgba( 2, 2, 2, 0.1);
+    border-left: 1px solid rgba(2, 2, 2, 0.1);
     min-width: 200px;
 }
 

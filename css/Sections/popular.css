@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--primary-color);
-    background-image: url("../images/popular-bg.jpg");
+    background-image: url("../../assets/about_bg1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -12,7 +12,7 @@
 
 .popular-foods__title {
     font-size: 56px;
-    font-family: var(--playfair-display-font);
+    font-family: var(--playfair-display);
     font-weight: 600;
     line-height: 78px;
     color: #ffff;
@@ -37,7 +37,7 @@
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 46px;
-    font-weight: 300px;
+    font-weight: 300;
     line-height: 24px;
     font-family: var(--plus-jakarta-sans);
     color: #ffff;
@@ -138,16 +138,16 @@
 
 .popular-foods__card-rating p {
     font-size: 20px;
-    font-weight: 500px;
-    font-family: var (--plus-jakarta-snas);
-    color:#fff
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color:#ffff;
 }
 
-.popular-foods__card-rating price {
+.popular-foods__card-price {
     font-size: 20px;
-    font-weight: 500px;
-    font-family: var (--plus-jakarta-snas);
-    color:#fff
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color:#ffff;
 }
 
 .popular-foods__card.active-card {
